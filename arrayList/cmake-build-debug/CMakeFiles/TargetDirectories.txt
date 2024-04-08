@@ -1,5 +1,7 @@
 E:/dataStructure/git/dataStructure/arrayList/cmake-build-debug/CMakeFiles/arrayList.dir
 E:/dataStructure/git/dataStructure/arrayList/cmake-build-debug/CMakeFiles/LinkedList.dir
 E:/dataStructure/git/dataStructure/arrayList/cmake-build-debug/CMakeFiles/sqList.dir
+E:/dataStructure/git/dataStructure/arrayList/cmake-build-debug/CMakeFiles/sqStack.dir
+E:/dataStructure/git/dataStructure/arrayList/cmake-build-debug/CMakeFiles/sqQueue.dir
 E:/dataStructure/git/dataStructure/arrayList/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/dataStructure/git/dataStructure/arrayList/cmake-build-debug/CMakeFiles/rebuild_cache.dir

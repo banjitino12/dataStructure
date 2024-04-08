@@ -1,3 +1,11 @@
 # ninja log v5
 1	191	7342045263349523	CMakeFiles/sqList.dir/sqList.cpp.obj	ddd111c9152ee719
 193	538	7342045266749555	sqList.exe	ccf861df573dce07
+6	689	7342787546041487	CMakeFiles/Stack.dir/Stack.cpp.obj	afe740e04a77e79c
+689	963	7342787548756237	Stack.exe	4a6d62336d962a80
+1	663	7342801732775442	CMakeFiles/sqQueue.dir/sqQueue.cpp.obj	8ca81fb4997db83f
+667	931	7342801735423836	sqQueue.exe	9ef6049ab3e1531b
+6	617	7342801910827451	CMakeFiles/sqQueue.dir/sqQueue.cpp.obj	8ca81fb4997db83f
+618	849	7342801913114803	sqQueue.exe	9ef6049ab3e1531b
+6	550	7342802563828788	CMakeFiles/sqQueue.dir/sqQueue.cpp.obj	8ca81fb4997db83f
+551	790	7342802566162681	sqQueue.exe	9ef6049ab3e1531b

@@ -1,4 +1,5 @@
 #include "cstdio"
+
 #define MaxSize 100
 typedef struct{
     int data[MaxSize];
@@ -66,7 +67,5 @@ int main(){
     printf("LocateElem : %d\n", LocateElem(&L, 4));
     DeleteElem(&L, 9);
     printList(&L);
-
-
 
 }

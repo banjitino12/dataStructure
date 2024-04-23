@@ -173,6 +173,39 @@ build sqStack.exe: CXX_EXECUTABLE_LINKER__sqStack_Debug CMakeFiles/sqStack.dir/s
   TARGET_PDB = sqStack.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target shStack
+
+
+#############################################
+# Order-only phony target for shStack
+
+build cmake_object_order_depends_target_shStack: phony || CMakeFiles/shStack.dir
+
+build CMakeFiles/shStack.dir/shStack.cpp.obj: CXX_COMPILER__shStack_unscanned_Debug E$:/dataStructure/git/dataStructure/arrayList/shStack.cpp || cmake_object_order_depends_target_shStack
+  DEP_FILE = CMakeFiles\shStack.dir\shStack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\shStack.dir
+  OBJECT_FILE_DIR = CMakeFiles\shStack.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target shStack
+
+
+#############################################
+# Link the executable shStack.exe
+
+build shStack.exe: CXX_EXECUTABLE_LINKER__shStack_Debug CMakeFiles/shStack.dir/shStack.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\shStack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = shStack.exe
+  TARGET_IMPLIB = libshStack.dll.a
+  TARGET_PDB = shStack.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target sqQueue
 
 
@@ -235,6 +268,8 @@ build LinkedList: phony LinkedList.exe
 
 build arrayList: phony arrayList.exe
 
+build shStack: phony shStack.exe
+
 build sqList: phony sqList.exe
 
 build sqQueue: phony sqQueue.exe
@@ -249,7 +284,7 @@ build sqStack: phony sqStack.exe
 #############################################
 # Folder: E:/dataStructure/git/dataStructure/arrayList/cmake-build-debug
 
-build all: phony arrayList.exe LinkedList.exe sqList.exe sqStack.exe sqQueue.exe
+build all: phony arrayList.exe LinkedList.exe sqList.exe sqStack.exe shStack.exe sqQueue.exe
 
 # =============================================================================
 # Built-in targets
